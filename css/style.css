@@ -335,6 +335,9 @@ color: #000;
     .banner-btn .btn-yellow{
         margin-bottom: 10px;
     }
+    .map-area {
+        padding: 0px;
+    }
  }
 @media (min-width: 576px) and (max-width: 767.98px) {  
     .banner-img {
