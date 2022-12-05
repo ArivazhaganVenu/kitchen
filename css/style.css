@@ -1,0 +1,386 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bg {
+    background: #fff !important;
+    padding: 10px 0;
+}
+
+.navbar-nav-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.navbar-brand {
+    color: #000 !important;
+    font-weight: 500;
+    font-size: 25px !important;
+}
+
+.nav-item .nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    color: #000 !important;
+    font-weight: 500 !important;
+}
+
+.owl-img img {
+    width: 100%;
+    height: 600px;
+}
+.nav-link:hover{
+    transition: 1s;
+    background-color: #007bff;
+    color: #fff !important;
+}
+
+/* .owl-theme .owl-controls {
+    margin-top: -40px !important;
+    text-align: center;
+    z-index: -1 !important;
+} */
+
+/* .banner-sec {
+    background: url(../images/back1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+.banner-img{    
+    margin-top: 25px;
+}
+.banner-textarea{
+    padding: 100px 50px;
+}
+.banner-textarea h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+}
+.banner-textarea p{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.banner-btns{
+    margin-top: 35px;
+}
+.banner-btns .btn-yellow {
+    padding: 10px 20px;
+    width: 160px;
+    color: #000;
+    font-size: 17px;
+    border-radius: 25px;
+}
+.banner-btns .btn-gray{
+    padding: 10px 20px;
+    width: 160px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 25px;
+}
+.banner-btns a:nth-child(2):hover{
+    background: #ffc107 !important;
+    color: #000;
+} */
+
+
+
+
+.banner-sec {
+    background: url(../images/back1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+.banner-img{
+    margin-top: 25px;
+}
+
+.banner-textarea{
+    padding: 100px 50px;
+}
+.banner-textarea h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.banner-textarea p{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.banner-btn{
+    margin-top: 25px;
+}
+.banner-btn .btn-yellow{
+    padding: 10px 15px;
+    width: 150px;
+    color: #000;
+    background-color: #fcce2d;
+    border-radius: 40px;
+}
+
+.banner-btn .btn-black{
+    padding: 10px 15px;
+    width: 150px;
+    color: #fff;
+    background-color: #191919;
+    border-radius: 40px;
+}
+.banner-btn :nth-child(2):hover{
+background: #ffc107;
+color: #000;
+}
+.specialmenus-section {
+    padding: 100px 0;
+}
+.special-head h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.dish-box{
+    position: relative;
+}
+.dish-box a{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 0 10px
+}
+.dish-box p{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+.dish-box .orange-btn {
+    background-color: #ffc107;
+    color: #fff;   
+}
+.open-section{
+    background: url(../images/open.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+}
+.health-text .red-btn{
+    background-color: #dc3545;
+    color: #fff;
+    padding: 2px 15px;
+}
+.health-text h5{
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+}
+.health{
+    position: relative;
+    overflow: hidden;
+    
+}
+.health-text{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+.health img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.health img{
+    transition: 0.3s;
+}
+.feature-box2{
+    margin-top: 20px;
+}
+.coccnut .blue-btn{
+    background-color: #0dcaf0;
+    color: #fff;
+    padding: 2px 15px;
+    margin-top: 20px;
+}
+.coccnut p{
+    font-weight: 500;
+    font-size: 30px;
+}
+.coccnut p:hover{
+    color: #dc3545;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.coccnut img{
+    transition: .3s;
+}
+.coccnut img:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.coccnut{
+    overflow: hidden;
+}
+.contac-section{
+    background-color: #525050;
+    padding: 80px 0;
+}
+.get-head{
+    position: relative;
+}
+.get-head h2{
+    color: #fff;
+}
+.get-head h2::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #fff;
+    bottom: -7px;
+}
+.getin-box i{
+    color: #fff;
+}
+.getinbox-area{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.getin-box{
+    border: 1px solid #fff;
+    padding: 20px;
+    text-align: center;
+    transition: .1s;
+}
+.getin-box:hover{
+    background-color: #fff;
+    transition: .1s;
+}
+.getin-box:hover p{
+    color: #000;
+    transition: .1s;
+}
+.getin-box p{
+    color: #fff;
+}
+.getin-box p a{
+    color: #fff;
+}
+.getin-box:hover i{
+    color: #000;
+    transition: .1s;
+}
+.getin-box:hover p a{
+    color: #000;
+    transition: .1s;
+}
+
+.name-box{
+    margin-top: 20px;
+}
+.name-box label{
+    color: #fff;
+}
+.map-area{
+    padding: 25px;
+}
+.footer-section{
+    background-color: #000;
+    padding: 10px;
+}
+.copytext-area p{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+/* media qurey */
+
+@media (min-width: 1px) and (max-width: 575.98px) { 
+    .banner-img {
+        display: none;
+    }
+    .banner-textarea {
+        padding: 50px 25px;
+    }
+    .banner-sec{
+        height: 400px;
+    }
+
+    .banner-btn .btn-yellow{
+        margin-right: 10px;
+    }
+    .banner-textarea h2{
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .banner-btn .btn-yellow{
+        margin-bottom: 10px;
+    }
+ }
+@media (min-width: 576px) and (max-width: 767.98px) {  
+    .banner-img {
+        display: none;
+    }
+    .banner-textarea {
+        padding: 50px 50px;
+    }
+    .banner-sec{
+        height: 400px;
+    }
+
+    .banner-btn .btn-yellow{
+        margin-right: 10px;
+    }
+    .getin-box{
+        margin-bottom: 20px;
+    }
+    .map-area {
+        padding: 0px;
+        margin-top: 25px;
+    }
+    .health {
+        margin-bottom: 25px
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .banner-textarea h2 {
+        font-size: 29px;
+        line-height: 40px;
+    }
+    .banner-img {
+        margin-top: 268px;
+    }
+    .banner-btn {
+        display: flex;
+    }
+    .banner-btn .btn-yellow{
+        margin-right: 10px;
+    }
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner-textarea h2 {
+        font-size: 42px;
+        line-height: 51px;
+    }
+ }
+@media (min-width: 1200px) {  }
