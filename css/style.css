@@ -315,75 +315,168 @@ color: #000;
 /* media qurey */
 
 @media (min-width: 1px) and (max-width: 575.98px) { 
+    .banner-textarea h2 {
+        font-size: 42px;
+        line-height: 51px;
+    }
     .banner-img {
-        display: none;
+        margin-top: 175px;
     }
     .banner-textarea {
-        padding: 50px 25px;
+        padding: 135px 50px;
     }
-    .banner-sec{
-        height: 400px;
+    .specialmenus-section {
+        padding: 65px 0;
     }
-
-    .banner-btn .btn-yellow{
-        margin-right: 10px;
+    .coccnut p {
+        font-size: 18px;
     }
-    .banner-textarea h2{
-        font-size: 25px;
-        line-height: 37px;
+    .health-text h5 {
+        font-size: 17px;
+        color: #fff;
     }
-    .banner-btn .btn-yellow{
+    .dish-box p {
+        font-size: 18px;
+        margin-top: 4px;
+    }
+    .special-head h2 {
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    .health {
+        margin-bottom: 15px;
+    }
+    .health-text .red-btn {
+        font-size: 14px;
+    }
+    .coccnut .blue-btn {
+        font-size: 13px;
+    }
+    .getin-box {
+        padding: 10px;
         margin-bottom: 10px;
     }
-    .map-area {
-        padding: 0px;
+    .map-area{
+       padding: 0;
+       margin: 15px 0;
+    }
+    .map-area iframe{
+        width: 100%;
     }
  }
 @media (min-width: 576px) and (max-width: 767.98px) {  
+    .banner-textarea h2 {
+        font-size: 42px;
+        line-height: 51px;
+    }
     .banner-img {
-        display: none;
+        margin-top: 175px;
     }
     .banner-textarea {
-        padding: 50px 50px;
+        padding: 135px 50px;
     }
-    .banner-sec{
-        height: 400px;
+    .specialmenus-section {
+        padding: 65px 0;
     }
-
-    .banner-btn .btn-yellow{
-        margin-right: 10px;
+    .coccnut p {
+        font-size: 18px;
     }
-    .getin-box{
-        margin-bottom: 20px;
+    .health-text h5 {
+        font-size: 17px;
+        color: #fff;
     }
-    .map-area {
-        padding: 0px;
-        margin-top: 25px;
+    .dish-box p {
+        font-size: 18px;
+        margin-top: 4px;
     }
-    .health {
-        margin-bottom: 25px
+    .special-head h2 {
+        font-size: 45px;
+        margin-bottom: 35px;
+    }
+    .health-text .red-btn {
+        font-size: 14px;
+    }
+    .coccnut .blue-btn {
+        font-size: 13px;
+    }
+    .getin-box {
+        padding: 10px;
+    }
+    .map-area{
+       padding: 0;
+       margin: 15px 0;
+    }
+    .map-area iframe{
+        width: 100%;
     }
     
 }
 @media (min-width: 768px) and (max-width: 991.98px) { 
     .banner-textarea h2 {
-        font-size: 29px;
-        line-height: 40px;
+        font-size: 42px;
+        line-height: 51px;
     }
     .banner-img {
-        margin-top: 268px;
+        margin-top: 175px;
     }
-    .banner-btn {
-        display: flex;
+    .banner-textarea {
+        padding: 135px 50px;
     }
-    .banner-btn .btn-yellow{
-        margin-right: 10px;
+    .specialmenus-section {
+        padding: 65px 0;
+    }
+    .coccnut p {
+        font-size: 18px;
+    }
+    .health-text h5 {
+        font-size: 17px;
+        color: #fff;
+    }
+    .dish-box p {
+        font-size: 18px;
+        margin-top: 4px;
+    }
+    .special-head h2 {
+        font-size: 45px;
+        margin-bottom: 35px;
+    }
+    .health-text .red-btn {
+        font-size: 14px;
+    }
+    .coccnut .blue-btn {
+        font-size: 13px;
+    }
+    .getin-box {
+        padding: 10px;
+    }
+    .map-area{
+       padding: 0;
+       margin: 15px 0;
+    }
+    .map-area iframe{
+        width: 100%;
     }
  }
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .banner-textarea h2 {
         font-size: 42px;
         line-height: 51px;
+    }
+    .banner-img {
+        margin-top: 94px;
+    }
+    .banner-textarea {
+        padding: 135px 50px;
+    }
+    .specialmenus-section {
+        padding: 65px 0;
+    }
+    .coccnut p {
+        font-size: 24px;
+    }
+    .health-text h5 {
+        font-size: 23px;
+        color: #fff;
     }
  }
 @media (min-width: 1200px) {  }
