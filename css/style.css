@@ -323,10 +323,10 @@ color: #000;
         height: 425px;
     }
     .banner-img {
-        margin-top: 175px;
+       display: none;
     }
     .banner-textarea {
-        padding: 50px 50px;
+        padding: 60px 50px;
     }
     .banner-btn .btn-black{
         margin-top: 15px;
